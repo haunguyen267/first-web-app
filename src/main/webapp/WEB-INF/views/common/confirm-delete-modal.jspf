@@ -1,0 +1,29 @@
+<div class="modal modal-sm fade" id="confirm-delete-modal" tabindex="-1"
+	aria-labelledby="confirmDeleteModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="confirmDeleteModalLabel">
+					<spring:message code="confirm.delete" />
+				</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal"
+					aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<spring:message code="confirm.deleteMessage" />
+				<br/>
+				<spring:message code="todo" />
+				: <b id="todo-desc"></b>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary"
+					data-bs-dismiss="modal">
+					<spring:message code="cancel" />
+				</button>
+				<a type="button" class="btn btn-primary" href="#"
+					id="todo-delete-link"><spring:message
+						code="confirm.approveDelete" /></a>
+			</div>
+		</div>
+	</div>
+</div>

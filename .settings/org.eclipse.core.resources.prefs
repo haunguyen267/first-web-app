@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+encoding//src/main/resources/messages_en.properties=UTF-8
+encoding//src/main/resources/messages_ja.properties=UTF-8
+encoding//src/main/webapp/WEB-INF/views/common/nav.jspf=UTF-8
+encoding//src/main/webapp/WEB-INF/views/list-todos.jsp=UTF-8
